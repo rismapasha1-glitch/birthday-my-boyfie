@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Happy Birthday Sayangku</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            color: white;
+            text-align: center;
+        }
+        .card {
+            margin: 40px auto;
+            padding: 25px;
+            max-width: 420px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        }
+        h1 { font-size: 30px; }
+        p { line-height: 1.7; font-size: 16px; }
+        img {
+            width: 180px;
+            border-radius: 15px;
+            margin-top: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Happy Birthday, Sayang 🤍</h1>
+
+    <p>
+        Hari ini hari spesial, karena orang yang paling berarti di hidup aku lahir ke dunia.  
+        Terima kasih sudah hadir, bukan cuma sebagai pasangan, tapi juga sebagai tempat pulang, tempat cerita, dan tempat aku merasa tenang.
+    </p>
+
+    <p>
+        Di umur kamu yang baru ini, aku berdoa hal baik selalu datang ke hidup kamu.  
+        Semoga langkah kamu lancar, rezeki kamu luas, hati kamu tenang, dan semua mimpi yang kamu simpan pelan pelan jadi kenyataan.
+    </p>
+
+    <p>
+        Kalau nanti dunia lagi berat, ingat kamu ga sendirian.  
+        Aku akan tetap di sini, dukung kamu, dengerin kamu, dan jalan bareng kamu sejauh yang kita bisa.
+    </p>
+
+    <p>
+        Terima kasih udah jadi bagian dari hidup aku.  
+        Aku sayang kamu, hari ini, besok, dan seterusnya.
+    </p>
+
+    <img src="foto.jpg" alt="Foto Kita">
+
+    <br>
+    <button onclick="playMusic()">Putar Lagu 🎵</button>
+    <audio id="music" src="lagu.mp3"></audio>
+</div>
+
+<script>
+function playMusic() {
+    document.getElementById("music").play();
+}
+</script>
+
+</body>
+</html>
